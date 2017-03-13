@@ -1,0 +1,4 @@
+GROUP-NAME:Default Group
+PAIR-NAME:PersonURLTempBackup
+GET /test_api/populations/abcdef-12345/people/1234567_Backup/registries
+
