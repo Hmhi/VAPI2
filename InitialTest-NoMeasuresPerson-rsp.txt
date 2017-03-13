@@ -1,0 +1,36 @@
+200
+
+{
+  "id": "lorem-ipsum-dolor-et-practicum",
+  "quality_score": "999%",
+  "programs": [
+    {
+      "id": "advocate.adultwellness.org2014.clinical.adult-wellness",
+      "name": "MOCK Adult Wellness",
+      "scorable": false,
+      "total_measure_count": 0,
+      "met_measure_count": 0,
+      "measures": [
+          {
+          "fqn": "advocate.adultwellness.org2014.clinical/exercise-assessment-and-counseling-senior-age-1",
+          "name": "MOCK Measure5",
+          "outcome": "EXCLUDED",
+          "due_date": null,
+          "frequency": null,
+          "value_unit": "Excluded",
+          "supporting_facts": [
+            {
+              "name": "MOCK Manually Excluded",
+              "date": "2014-08-04T17:41:01+00:00",
+              "details": [],
+              "formatted_code": null,
+              "formatted_source": ""
+            }
+          ]
+        }
+            ],
+      "supporting_facts": [],
+      "as_of_datetime": "2017-02-10T22:05:29.232Z"
+    }
+            ]
+}
