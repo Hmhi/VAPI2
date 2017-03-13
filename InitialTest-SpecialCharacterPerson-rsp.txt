@@ -1,0 +1,258 @@
+500
+content-type:application/json;charset=ISO-8859-1
+
+{
+  "id": "lorem-ipsum-dolor-et-practicum",
+  "quality_score": "999%",
+  "programs": [
+    {
+      "id": "advocate.adultwellness.org2014.clinical.adult-wellness",
+      "name": "MOCK Adult Wellness",
+      "scorable": false,
+      "total_measure_count": 5,
+      "met_measure_count": 2,
+      "measures": [
+        {
+          "measure_due": true,
+          "due_date": "2022-01-02",
+          "fqn": "advocate.adultwellness.org2014.clinical/bmi-measurement-senior-age-1",
+          "name": "MOCK Body Mass Index Slash \\test test1",
+          "outcome": "ACHIEVED",
+          "value_unit": "Achieved",
+          "supporting_facts": [
+            {
+              "name": "MOCK Height 100 in",
+              "date": "2014-09-15T05:00:00+00:00",
+              "details": [],
+              "formatted_code": null,
+              "formatted_source": "Hospital; (Manual Data Entry)"
+            },
+            {
+              "name": "MOCK Weight 800 lb",
+              "date": "2014-09-15T05:00:00+00:00",
+              "details": [],
+              "formatted_code": null,
+              "formatted_source": "(Manual Data Entry)"
+            }
+          ],
+          "has_displayable_components": false
+        },
+        {
+          "measure_due": false,
+          "due_date": null,
+          "fqn": "advocate.adultwellness.org2014.clinical/senior-wellness-screening-for-future-fall-risk-senior-age-1",
+          "name": "MOCK Screen for Future Falls Risk Slash \\utest test2",
+          "outcome": "MISSING_DATA",
+          "value_unit": "--",
+          "supporting_facts": [],
+          "has_displayable_components": false
+        },
+        {
+          "measure_due": true,
+          "due_date": "2021-01-25",
+          "fqn": "advocate.adultwellness.org2014.clinical/senior-wellness-pneumococcal-vaccination-senior-age-1",
+          "name": "MOCK Pneumococcal Vaccination \u2265 Age 65",
+          "outcome": "MISSING_DATA",
+          "value_unit": "--",
+          "supporting_facts": [],
+          "has_displayable_components": false
+        },
+        {
+          "measure_due": false,
+          "due_date": "2024-12-02",
+          "fqn": "advocate.adultwellness.org2014.clinical/blood-pressure-measurement-senior-age-1",
+          "name": "MOCK Blood Pressure Screen \u2264 Age 100",
+          "outcome": "EXCLUDED",
+          "value_unit": "Excluded",
+          "supporting_facts": [
+            {
+              "name": "MOCK Benign essential hypertension",
+              "date": "2013-07-11T00:00:00+00:00",
+              "details": [],
+              "formatted_code": "ICD-9-CM 401.1",
+              "formatted_source": "Claims Clinic; Pop Health 1 PHO data source (Claim)"
+            }
+          ],
+          "has_displayable_components": false
+        },
+        {
+          "measure_due": false,
+          "due_date": "2019-04-12",
+          "fqn": "advocate.adultwellness.org2014.clinical/alcohol-assessment-senior-age-1",
+          "name": "MOCK Alcohol Assessment \u2265 50 Ounces Per Day",
+          "outcome": "ACHIEVED",
+          "value_unit": "Performed",
+          "supporting_facts": [
+            {
+              "name": "MOCK Audit-C",
+              "date": "2014-09-15T05:00:00+00:00",
+              "details": [],
+              "formatted_code": null,
+              "formatted_source": "(Manual Data Entry)"
+            }
+          ],
+          "has_displayable_components": true
+        },
+        {
+          "measure_due": false,
+          "due_date": null,
+          "fqn": "advocate.adultwellness.org2014.clinical/exercise-assessment-and-counseling-senior-age-1",
+          "name": "MOCK Exercise Assessment/ Counseling \\ test test3",
+          "outcome": "EXCLUDED",
+          "value_unit": "Excluded",
+          "supporting_facts": [
+            {
+              "name": "MOCK Manually Excluded",
+              "date": "2014-08-04T17:41:01+00:00",
+              "details": [],
+              "formatted_code": null,
+              "formatted_source": ""
+            }
+          ],
+          "has_displayable_components": false
+        },
+        {
+          "measure_due": false,
+          "due_date": "2020-02-02",
+          "fqn": "advocate.adultwellness.org2014.clinical/bmi-follow-up-plan-senior-age-1",
+          "name": "MOCK BMI Follow Up Plan \u2265 130 mg/dl",
+          "outcome": "MISSING_DATA",
+          "value_unit": "--",
+          "supporting_facts": [],
+          "has_displayable_components": false
+        },
+        {
+          "measure_due": true,
+          "due_date": null,
+          "fqn": "cernerstandard.diabetesmellitus.org2014.clinical/ldl-greater-or-equal-to-130",
+          "name": "MOCK LDL \u2265 130 mg/dl",
+          "outcome": "MISSING_DATA",
+          "value_unit": "--",
+          "supporting_facts": [],
+          "has_displayable_components": false
+        }
+      ],
+      "supporting_facts": [],
+      "as_of_datetime": "2016-09-14T00:10:29.232Z"
+    },
+    {
+      "id": "advocate.depression.org2014.clinical.depression-screening-follow-up",
+      "name": "MOCK Depression Screening and Follow Up",
+      "scorable": false,
+      "total_measure_count": 1,
+      "met_measure_count": 0,
+      "measures": [
+        {
+          "measure_due": true,
+          "due_date": "2020-06-03",
+          "fqn": "advocate.depression.org2014.clinical/depression-screening-follow-up-measure-senior-age-1",
+          "name": "MOCK Depression Screen/ Follow Up Plan",
+          "outcome": "MISSING_DATA",
+          "value_unit": "--",
+          "supporting_facts": [],
+          "has_displayable_components": false
+        }
+      ],
+      "supporting_facts": [],
+      "as_of_datetime": "2016-09-14T00:10:29.232Z"
+    },
+    {
+      "id": "advocate.influenzavaccination.org2014.clinical.influenza-vaccine",
+      "name": "MOCK Influenza Vaccination",
+      "scorable": false,
+      "total_measure_count": 1,
+      "met_measure_count": 0,
+      "measures": [
+        {
+          "measure_due": true,
+          "due_date": null,
+          "fqn": "advocate.influenzavaccination.org2014.clinical/influenza-vaccination-senior-age-1",
+          "name": "MOCK Influenza Vaccination",
+          "outcome": "MISSING_DATA",
+          "value_unit": "--",
+          "supporting_facts": [],
+          "has_displayable_components": false
+        }
+      ],
+      "supporting_facts": [],
+      "as_of_datetime": "2016-09-14T00:10:29.232Z"
+    },
+    {
+      "id": "advocate.events.ambulatory-urgent-care",
+      "name": "Ambulatory Urgent Care",
+      "scorable": true,
+      "total_measure_count": 0,
+      "met_measure_count": 0,
+      "events": [
+        {
+          "id": "b55b3fda-a51c-31ea-b1a1-a224c196498a",
+          "name": "Feb  7, 2013 - Event performed by Anna Nowobilska",
+          "date": "2013-02-07",
+          "responsible_providers": [
+            {
+              "active": true,
+              "full_name": "Anna Nowobilska",
+              "id": "6f2ef796-1606-4707-9290-cfe8376a7f0e"
+            }
+          ],
+          "measures": [
+            {
+              "fqn": "advocate.events.ambulatory-urgent-care/bronchitis-antibiotic-avoidance",
+              "name": "MOCK Bronchitis Antibiotic Avoidance",
+              "outcome": "EXCLUDED",
+              "value_unit": "Excluded",
+              "due_date": null,
+              "measure_due": false,
+              "supporting_facts": [
+                {
+                  "name": "MOCK Acute bronchitis",
+                  "date": "2013-02-07",
+                  "details": [],
+                  "formatted_code": "ICD-9-CM 466.0",
+                  "formatted_source": "Pop Health 1 MSSP Staging (Claim)"
+                },
+                {
+                  "name": "MOCK Nodular lymphoma, intrathoracic lymph nodes",
+                  "date": "2012-12-06",
+                  "details": [],
+                  "formatted_code": "ICD-9-CM 202.02",
+                  "formatted_source": "Pop Health 1 MSSP Staging (Claim)"
+                }
+              ],
+              "frequency": null,
+              "last_satisfied_date": null,
+              "has_displayable_components": null
+            }
+          ],
+          "supporting_facts": [
+            {
+              "name": "MOCK Acute bronchitis",
+              "date": "2013-02-07",
+              "details": [],
+              "formatted_code": "ICD-9-CM 466.0",
+              "formatted_source": "Pop Health 1 MSSP Staging (Claim)"
+            },
+            {
+              "name": "OFFICE OUTPATIENT VISIT MOCK",
+              "date": "2013-02-07",
+              "details": [],
+              "formatted_code": "CPT-4 99214",
+              "formatted_source": "Pop Health 1 MSSP Staging (Claim)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "record_ids": [
+    {
+      "data_partition_id": "f12d23415-987f-4f2e-85e0-5f4d2398e8dd",
+      "data_partition_person_id": "VM035456_reg_2"
+    },
+    {
+      "data_partition_id": "f12d1f15-807f-4f2e-85e0-5f4acf98e8dd",
+      "data_partition_person_id": "VM035987_reg_1"
+    }
+  ],
+  "mara_total_risk_score": 100
+}
