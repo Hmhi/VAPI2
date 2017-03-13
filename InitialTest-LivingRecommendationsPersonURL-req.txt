@@ -1,0 +1,6 @@
+GROUP-NAME:null
+PAIR-NAME:LivingRecommendationsPersonURL
+GET /test_api/populations/abcdef-12345/people/LivingRecommendations/registries
+Content-Type:application/json;charset=UTF8
+
+{
