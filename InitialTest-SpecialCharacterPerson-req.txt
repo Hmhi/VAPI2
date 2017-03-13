@@ -1,0 +1,4 @@
+GROUP-NAME:Default Group
+PAIR-NAME:SpecialCharacterPerson
+GET /path/id-13675/SpecialCharacterPerson
+
