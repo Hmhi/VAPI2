@@ -1,0 +1,4 @@
+GROUP-NAME:Default Group
+PAIR-NAME:NoMeasuresPerson
+GET /populations/abcdef-12345/people/1234567/NoMeasuresPerson
+
