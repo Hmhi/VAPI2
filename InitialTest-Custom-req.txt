@@ -1,0 +1,6 @@
+GROUP-NAME:null
+PAIR-NAME:Custom
+GET /initaltest
+Content_Type:application/json;charset=UTF8
+
+{
