@@ -1,0 +1,6 @@
+GROUP-NAME:Default Group
+PAIR-NAME:ProgramsURL
+GET /test_api/populations/programs
+Content-Type:application/json;charset=UTF8
+
+
