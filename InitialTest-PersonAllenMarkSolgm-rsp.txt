@@ -1,0 +1,192 @@
+200
+
+{
+	 "id":"81de2bf8-8190-4e9d-b997-12dcd3c774e5",
+	 "programs":[{
+		"id":"solgm.ivdcad.clinical.ivdcad",
+		"name":"Ischemic Vascular Disease Coronary Artery Disease",	
+		"scorable":true,	
+		"total_measure_count":14,
+		"met_measure_count":0,
+		"measures":[{
+			"fqn":"cernerstandard.ivdcad.org2014.clinical/antiplatelet-therapy-measure",
+			"name":"Antiplatelet Therapy - Test",	
+			"outcome":"MISSING_DATA",	
+			"value_unit":"--",	"due_date":null,	
+			"measure_due":true,	
+			"supporting_facts":[],	
+			"frequency":null,	
+			"last_satisfied_date":null,
+			"has_displayable_components":false
+			}, {
+			"fqn":"cernerstandard.ivdcad.org2014.clinical/bp-less-than-140-90",
+			"name":"Blood Pressure < 140/90 mm Hg",	
+			"outcome":"MISSING_DATA",	
+			"value_unit":"--",	
+			"due_date":null,	
+			"measure_due":true,	
+			"supporting_facts":[],	
+			"frequency":null,
+			"last_satisfied_date":null,
+			"has_displayable_components":false
+			},{
+			"fqn":"cernerstandard.ivdcad.org2014.clinical/bp-measurement",
+			"name":"Blood Pressure Measurement",	
+			"outcome":"MISSING_DATA",	
+			"value_unit":"--",	
+			"due_date":null,	
+			"measure_due":true,	
+			"supporting_facts":[],	
+			"frequency":null,
+			"last_satisfied_date":null,
+			"has_displayable_components":false
+			},{
+			"fqn":"cernerstandard.ivdcad.org2014.clinical/bmi-measure",
+			"name":"Body Mass Index",	
+			"outcome":"MISSING_DATA",	
+			"value_unit":"--",	
+			"due_date":null,	
+			"measure_due":true,	
+			"supporting_facts":[],	
+			"frequency":null,	
+			"last_satisfied_date":null,
+			"has_displayable_components":false
+			},{
+			"fqn":"cernerstandard.ivdcad.org2014.clinical/comprehensive-care-measure",
+			"name":"Comprehensive Care",	
+			"outcome":"MISSING_DATA",	
+			"value_unit":"--",	
+			"due_date":null,	
+			"measure_due":true,	
+			"supporting_facts":[],	
+			"frequency":null,	
+			"last_satisfied_date":null,
+			"has_displayable_components":true
+			},{
+			"fqn":"cernerstandard.ivdcad.org2014.clinical/influenza-vaccination-current-season",
+			"name":"Influenza Vaccination - Current Season",	
+			"outcome":"MISSING_DATA",	
+			"value_unit":"--",	
+			"due_date":null,	
+			"measure_due":true,	
+			"supporting_facts":[],	
+			"frequency":null,	
+			"last_satisfied_date":null,
+			"has_displayable_components":false
+			},{
+			"fqn":"cernerstandard.ivdcad.org2014.clinical/ldl-less-than-100-measure",
+			"name":"LDL < 100 mg/dL",	
+			"outcome":"MISSING_DATA",		
+			"value_unit":"--",	
+			"due_date":null,		
+			"measure_due":true,	
+			"supporting_facts":[],		
+			"frequency":null,			
+			"last_satisfied_date":null,
+			"has_displayable_components":false
+			},{
+			"fqn":"cernerstandard.ivdcad.org2014.clinical/ldl-less-than-70-measure",
+			"name":"LDL < 70 mg/dL",	
+			"outcome":"MISSING_DATA",		
+			"value_unit":"--",		
+			"due_date":null,			
+			"measure_due":true,		
+			"supporting_facts":[],		
+			"frequency":null,		
+			"last_satisfied_date":null,
+			"has_displayable_components":false
+			},{
+			"fqn":"cernerstandard.ivdcad.org2014.clinical/ldl-poorly-controlled-ldl-gte-130",
+			"name":"LDL //u2265 130 mg/dL",
+			"outcome":"NOT_ACHIEVED",
+			"value_unit":"Not Achieved",		
+			"due_date":null,		
+			"measure_due":false,		
+			"supporting_facts":[],			
+			"frequency":null,		
+			"last_satisfied_date":null,
+			"has_displayable_components":false
+			},{
+			"fqn":"cernerstandard.ivdcad.org2014.clinical/lipid-panel-measure",
+			"name":"Lipid Panel",		
+			"outcome":"MISSING_DATA",		
+			"value_unit":"--",		
+			"due_date":null,	
+			"measure_due":true,			
+			"supporting_facts":[],			
+			"frequency":null,			
+			"last_satisfied_date":null,
+			"has_displayable_components":false
+			},{
+			"fqn":"cernerstandard.ivdcad.org2014.clinical/lipid-lowering-therapy-measure",
+			"name":"Lipid-Lowering Therapy",			
+			"outcome":"MISSING_DATA",		
+			"value_unit":"--",		
+			"due_date":null,			
+			"measure_due":true,			
+			"supporting_facts":[],			
+			"frequency":null,			
+			"last_satisfied_date":null,
+			"has_displayable_components":false
+			},{
+			"fqn":"cernerstandard.ivdcad.org2014.clinical/pneumonia-vaccination-measure",
+			"name":"Pneumonia Vaccination",		
+			"outcome":"MISSING_DATA",			
+			"value_unit":"--",			
+			"due_date":null,		
+			"measure_due":true,			
+			"supporting_facts":[],			
+			"frequency":null,			
+			"last_satisfied_date":null,
+			"has_displayable_components":false
+			},{
+			"fqn":"cernerstandard.ivdcad.org2014.clinical/semiannual-office-visit",
+			"name":"Semiannual Office Visit",
+			"outcome":"MISSING_DATA",
+			"value_unit":"Not Achieved",
+			"due_date":"2016-12-19",
+			"measure_due":true,
+			"supporting_facts":[{
+				"name":"Well child",
+				"date":"2016-06-22T05:00:00+00:00",
+				"details":[],
+				"formatted_code":"ICD-10-CM Z00.129",
+				"formatted_source":"Solution Gold Master Domain - Connected to the Sandbox (EMR)"		
+				}],
+			"frequency":180,
+			"last_satisfied_date":"2016-06-22",
+			"has_displayable_components":false
+			},{
+			"fqn":"cernerstandard.ivdcad.org2014.clinical/tobacco-use-screening-and-cessation",
+			"name":"Tobacco Use Screening and Cessation",		
+			"outcome":"MISSING_DATA",			
+			"value_unit":"--",	
+			"due_date":null,			
+			"measure_due":true,
+			"supporting_facts":[],
+			"frequency":null,
+			"last_satisfied_date":null,
+			"has_displayable_components":false
+			}],
+			"supporting_facts":[{
+				"name":"Well child",
+				"date":"2016-06-22T05:00:00+00:00",
+				"details":[],
+				"formatted_code":"ICD-10-CM Z00.129",
+				"formatted_source":"Solution Gold Master Domain - Connected to the Sandbox (EMR)"
+				},{
+				"name":"CABG - Coronary artery bypass graft",
+				"date":"2014-12-01T00:00:00+00:00",
+				"details":[],
+				"formatted_code":"SNOMED CT 232717009",
+				"formatted_source":"Solution Gold Master Domain - Connected to the Sandbox (EMR)"				
+				}],
+			"as_of_datetime":"2017-01-20T22:59:55.163Z"		
+			}],
+		"quality_score":"0%",
+		"mara_total_risk_score":4.88,
+		"record_ids":[{
+			"data_partition_id":"28aa6494-fc39-431a-91fe-ed920ca91744",
+			"data_partition_person_id":"1327937"
+			}]
+}
