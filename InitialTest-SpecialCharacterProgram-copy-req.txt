@@ -1,0 +1,4 @@
+GROUP-NAME:Default Group
+PAIR-NAME:SpecialCharacterProgram-copy
+GET /test_api/populations/SpecialCharacterProgram
+
