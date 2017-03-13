@@ -1,0 +1,4 @@
+GROUP-NAME:Default Group
+PAIR-NAME:LivingSortingPersonURL
+GET /test_api/populations/abcdef-12345/people/LivingSortingPersonURL/registries
+
