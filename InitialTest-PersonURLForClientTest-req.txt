@@ -1,0 +1,5 @@
+GROUP-NAME:Default Group
+PAIR-NAME:PersonURLForClientTest
+GET /test_api/populations/abcdef-12345/people/standardMock/registries
+Content-Type:application/json;charset=UTF8
+
